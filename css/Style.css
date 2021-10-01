@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ccdfe5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+  background-size: cover;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
+h1#title {
+    font-size: 5vw;
+}
+p {
+    font-size: 3vw;
+}
+p#description {
+    margin: 17px 16px 8px 64px;
+}
+.user_details {
+    margin: 10px 0 10px 10px;
+    padding: 3px;
+}
+
+#survey-form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 72%;
+    background: radial-gradient(#69cae7, transparent);
+}
+#name-label {
+    font-size: 5vw;
+}
+#name {
+    font-size: 3vw;
+}
+#email-label {
+    font-size: 4vw;
+}
+#email {
+    font-size: 3vw;
+    margin: 10px 0px 0px 24px;
+}
+#number-label {
+    font-size: 4vw;
+}
+#number {
+    margin: 3px 2px 10px 50px;
+    font-size: 3vw;
+}
+select#dropdown {
+    margin: 3px 23px;
+    width: 43vw;
+    font-size: 3vw;
+    background: aliceblue;
+    color: violet;
+}
+.radio_input1 {
+    display: inline-flex;
+    flex-direction: column;
+}
+input.input-radio {
+    margin: 5px 13px;
+    width: 3vw;
+    height: 3vh;
+}
+.R_text {
+    font-size: 3vw;
+}
+
+select#most-like {
+    margin: 3px 23px;
+    width: 43vw;
+    font-size: 3vw;
+    background: aliceblue;
+    color: violet;
+}
+.input-checkbox {
+    width: 3vw;
+    height: 3vh;
+} 
+.check_label {
+    display: block;   
+    margin: 16px 15px;
+    font-size: 4vw;
+}
+#comments {
+    width: 40vw;
+    height: 15vh;
+    font-size: 2vw;
+    margin: 4vw 10vw 1vw 14vw;
+}
+
+#submit {
+    width: 9vw;
+    height: 6vh;
+    margin: -3vw 7vw 0vw 48vw;
+}
+
